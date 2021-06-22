@@ -1,0 +1,48 @@
+.share-mainContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.share-mainContainer .inputContainer {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5%;
+}
+.share-mainContainer .inputContainer input {
+  margin: 0 10px;
+  border-radius: 5px;
+  border-style: solid;
+  font-size: 18px;
+}
+
+.share-mainContainer .submitContainer {
+  width: 230px;
+  height: 40px;
+  background-color: #f9b234;
+  border-radius: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.share-mainContainer .submitText {
+  font-size: 18px;
+  color: #074f71;
+  font-weight: bold;
+  text-align: center;
+}
+
+.urlContainer {
+  height: 10px;
+  margin: 5%;
+}

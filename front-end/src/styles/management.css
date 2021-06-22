@@ -1,0 +1,60 @@
+.management-mainContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 10%;
+}
+.tableContainer {
+  width: 70%;
+}
+
+.tableHead {
+  display: flex;
+  background-color: #f9b234;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  color: #074f71;
+}
+
+.tableHead .col-1 {
+  flex: 2;
+  padding: 10px;
+}
+
+.tableHead .col-2 {
+  flex: 1;
+  padding: 10px;
+}
+
+.tableHead .col-3 {
+  flex: 1;
+  padding: 10px;
+}
+
+.tableRow {
+  display: flex;
+  background-color: rgb(241, 239, 239);
+  font-size: 18px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.tableRow .col-1 {
+  flex: 2;
+  padding: 10px;
+}
+
+.tableRow .col-2 {
+  flex: 1;
+  padding: 10px;
+}
+
+.tableRow .col-3 {
+  flex: 1;
+  padding: 10px;
+}
+
+.tableRow .col-3::before {
+  content: '$ ';
+}
